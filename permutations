@@ -1,0 +1,8 @@
+#input 10 9
+#output 3628800
+from math import perm
+def permutations():
+    a=int(input())
+    b=int(input())
+    print(perm(a,b))
+permutations()
